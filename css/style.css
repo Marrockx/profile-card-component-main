@@ -22,7 +22,7 @@ body{
 	
 }
 
-/* Card Styling*/
+/* Background patterns positioning */
 
 #background-img-top {
 	right: 45%;
@@ -37,15 +37,17 @@ body{
 	position: fixed;
 }
 
+/* Card Styling*/
+
 .profile-card{
 	width: 100%;
-	max-width: 349px;
+	max-width: 350px;
 	margin: 50% auto;
 	text-align: center;
 	position: relative;
 	background-color: #fff;
 	border-radius: 15px;
-	box-shadow: 0px 15px 40px 1px hsl(227, 10%, 46%);
+	box-shadow: 0px 15px 40px 1px hsl(188, 73%, 33%);
 	display: grid;
 	grid-template: repeat(5, 0.8fr) / repeat(3, 1fr);
 }
@@ -63,11 +65,16 @@ body{
 	letter-spacing: 0.1em;
 }
 
+/* Card Image Style */
+
 #banner-img{
 	grid-area: 1 / 1 / span 2 / span 3;
 	background-image: url('../images/bg-pattern-card.svg');
 	border-radius: 15px 15px 0px 0px;
 }
+
+/* Personal Profile Section including info and picture */
+
 #person-image{
 	position: absolute;
 	top: 80px;
@@ -86,14 +93,19 @@ body{
 	padding: 0 4px 10px 0;
 }
 
-#city {
-	font-size: 0.7em;
-
-}
-
 #person-info #age{
 	font-size: 1em;
+	letter-spacing: 0em;
 }
+
+#person-info #city {
+	font-size: 0.7em;
+	padding-top: 12px;
+	display: block;
+
+}
+
+/* LAST GRID - person profile media presence info */
 
 .person-attributes{
 	border-top: 1px solid #ddd;
