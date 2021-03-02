@@ -13,6 +13,7 @@ body{
 	font-size: 18px;
 	font-family: 'Kumbh Sans', Helevetica, sans-serif;
 	margin: 0;
+	
 }
 
 .container{
@@ -42,7 +43,7 @@ body{
 .profile-card{
 	width: 100%;
 	max-width: 350px;
-	margin: 10% auto;
+	margin: 25vh auto;
 	text-align: center;
 	position: relative;
 	background-color: #fff;
